@@ -91,6 +91,7 @@ Plugin 'vimwiki/vimwiki'
 Plugin 'mileszs/ack.vim'
 Plugin 'slim-template/vim-slim.git'
 Plugin 'mhinz/vim-startify'
+Plugin 'beloglazov/vim-online-thesaurus'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
@@ -230,5 +231,4 @@ let g:NERDTreeShowHidden = 1
 " Set it has mouse
 if has('mouse')
 	set mouse=a
-	" set ttymouse=xterm2
 endif
